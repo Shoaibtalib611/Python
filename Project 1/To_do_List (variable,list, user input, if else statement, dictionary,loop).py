@@ -1,7 +1,5 @@
-# Initialize an empty list to store tasks
 tasks = []
-
-# Main loop for the todo list manager
+# Main Loop
 while True:
     print("Todo List Manager")
     print("1. Add Task")
@@ -11,14 +9,12 @@ while True:
     print("5. Exit")
     
     choice = input("Enter your choice: ")
-    
     # Add Task
     if choice == "1":
         task_name = input("Enter task name: ")
         tasks.append({"task": task_name, "completed": False})
         print("Task added successfully!\n")
-    
-    # Mark Task as Completed
+    # Mark Task as Completed 
     elif choice == "2":
         task_index = int(input("Enter the task number you want to mark as completed: "))
         if task_index >= 1 and task_index <= len(tasks):
