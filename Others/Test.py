@@ -2,7 +2,7 @@
 list = [1,2 ,3 ,4 ]
 touple = (1, 2, 3, 4)
 set = {1, 2, 3, 4}
-dictionary = {"Name": "Kumail", "Age":"19","Class":"BS Artificial Intelligence 4th M(B)"}
+dictionary = {"Name": "Shoaib", "Age":"19","Class":"BS Artificial Intelligence 5th M(A)"}
 
 print(list)
 print(type(list))
