@@ -12,4 +12,4 @@ def get_full_name(first, middle, last):
     return full_name.title()
 
 
-print(get_full_name('Kumail', 'Haider'))
+print(get_full_name('Shoaib', 'Talib'))
